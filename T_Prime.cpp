@@ -7,9 +7,7 @@ using namespace std;
 #define ll long long
 //ll N = sqrt(1e12+10);
 ll N = 1000000;
-int main()
-{
-
+int main(){
   vector<ll> Prime(N,0);
  Prime[0] = Prime[1] = 0;
   for (ll i = 2; i <= N; i++)
