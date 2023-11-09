@@ -21,17 +21,11 @@ int main()
        }
     }
   }
-// for (int i = 0; i < 10; i++)
-// {
-//   cout<< i << " = " <<Prime[i]  << endl;
-// }
     ll n;cin>>n;
     vector<ll> v(n);
-    for (ll i = 0; i < n; i++)
-    { 
+    for (ll i = 0; i < n; i++)  { 
        cin>>v[i]  ; 
     }
-
     for(int i = 0; i<n ;i++){
       ll sq = sqrt(v[i]);
        //cout << sq<< " " << Prime[sq] << endl;
