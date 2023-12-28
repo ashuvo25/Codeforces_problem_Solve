@@ -1,13 +1,9 @@
  /*বিসমিল্লাহির রাহমানির রাহিম */
  /* MD ASADUZZAMAN SHUVO  */
-
 #include<bits/stdc++.h>
 using namespace std;
-
 #define ll long long
-
-int main()
-{
+int main(){
  string t;cin>>t;
  string m = "";
    for(int  i =0;i<t.size();i++){
@@ -22,6 +18,5 @@ int main()
          t+='+'; 
    }
    cout<<t<< endl;
-
     return 0;
 }
